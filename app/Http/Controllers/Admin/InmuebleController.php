@@ -1,9 +1,16 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use App\Models\Inmueble;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
+use Hashids\Hashids;
+use File;
+use DB;
+use Image;
+use Session;
 
 class InmuebleController extends Controller
 {
@@ -22,9 +29,9 @@ class InmuebleController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
+    public function create(){
+
+        return view('admin.inmuebles.create');
     }
 
     /**
