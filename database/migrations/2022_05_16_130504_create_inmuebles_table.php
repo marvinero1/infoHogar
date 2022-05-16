@@ -18,17 +18,17 @@ class CreateInmueblesTable extends Migration
             $table->integer('dormitorios');
             $table->integer('banios');
             $table->integer('garajes');
-            $table->double('precio', 6,2);
-            $table->double('superficie_terreno', 6,2);
-            $table->double('superficie_construido', 6,2);
             $table->string('ciudad');
-            $table->enum('estado', ['vendido','en venta','alquiler','anticretico']);
-            $table->enum('tipo', ['casa','chalet','dpto','lote', 'garaje']);
-            $table->enum('zona', ['norte','sud','este','oeste']);
             $table->string('direccion');
             $table->string('lat');
             $table->string('log');
             $table->string('descripcion', 550);
+            $table->double('precio', 6,2);
+            $table->double('superficie_terreno', 6,2);
+            $table->double('superficie_construido', 6,2);
+            $table->enum('estado', ['vendido','en venta','alquiler','anticretico']);
+            $table->enum('tipo', ['casa','chalet','dpto','lote', 'garaje']);
+            $table->enum('zona', ['norte','sud','este','oeste']);
 
             $table->string('cajoneria')->nullable();
             $table->string('comedor')->nullable();
@@ -41,7 +41,6 @@ class CreateInmueblesTable extends Migration
             $table->string('roperos_empotrados')->nullable();
             $table->string('tienda')->nullable();
             $table->string('servicios_basicos')->nullable();
-
 
             $table->unsignedBigInteger('image_id')->unsigned();
             $table->foreign('image_id')
