@@ -1,14 +1,16 @@
 {
-    "/assets/app/js/app.js": "/assets/app/js/app.js?id=11c05eb286ed576526bf",
-    "/assets/app/css/app.css": "/assets/app/css/app.css?id=c495654869785bc3df60",
+    "/assets/app/js/app.js": "/assets/app/js/app.js?id=320fa28debd36316365b",
+    "/assets/app/css/app.css": "/assets/app/css/app.css?id=4bb3dd721c4652feee09",
+    "/assets/page/css/app_page.css": "/assets/page/css/app_page.css?id=88f6f60fc25648bd0ac3",
+    "/assets/page/js/app_page.js": "/assets/page/js/app_page.js?id=117afb7835460b14eb42",
     "/assets/auth/css/login.css": "/assets/auth/css/login.css?id=97a1ee1740fa1fef504f",
     "/assets/auth/css/register.css": "/assets/auth/css/register.css?id=66b6f477cc540cb92f47",
     "/assets/auth/css/passwords.css": "/assets/auth/css/passwords.css?id=a9f54b8b2b5eca8cabb0",
-    "/assets/auth/css/auth.css": "/assets/auth/css/auth.css?id=a500d4964db6e3621df3",
-    "/assets/admin/js/admin.js": "/assets/admin/js/admin.js?id=555fe66fb2e71a3799aa",
-    "/assets/admin/css/admin.css": "/assets/admin/css/admin.css?id=ac06695426c764e0a6b3",
-    "/assets/admin/js/users/edit.js": "/assets/admin/js/users/edit.js?id=934b482711435ba28ef4",
-    "/assets/admin/css/users/edit.css": "/assets/admin/css/users/edit.css?id=a2194c2626489df39c39",
-    "/assets/admin/js/dashboard.js": "/assets/admin/js/dashboard.js?id=395be3a537c89c4efe09",
-    "/assets/admin/css/dashboard.css": "/assets/admin/css/dashboard.css?id=3e4ba5a88d086b7fd73d"
+    "/assets/auth/css/auth.css": "/assets/auth/css/auth.css?id=a5317248e414d6f00707",
+    "/assets/admin/js/admin.js": "/assets/admin/js/admin.js?id=cc40edd22fa185c599d6",
+    "/assets/admin/css/admin.css": "/assets/admin/css/admin.css?id=4cc9f28d67c4023203c5",
+    "/assets/admin/js/users/edit.js": "/assets/admin/js/users/edit.js?id=cea3e4dc114b4c80bf60",
+    "/assets/admin/css/users/edit.css": "/assets/admin/css/users/edit.css?id=f939bc2aee8c4f126ea0",
+    "/assets/admin/js/dashboard.js": "/assets/admin/js/dashboard.js?id=34ac5f05d1f8b0494efa",
+    "/assets/admin/css/dashboard.css": "/assets/admin/css/dashboard.css?id=49ee592657441c12fbfb"
 }

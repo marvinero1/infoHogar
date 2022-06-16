@@ -17,6 +17,7 @@ const mix = require('laravel-mix');
  |--------------------------------------------------------------------------
  |
  */
+// mix.sass('resources/assets/page/sass/app.scss', 'public/assets/page/css/app_page.css').version();
 
 mix.scripts([
     'node_modules/jquery/dist/jquery.js',
@@ -34,7 +35,46 @@ mix.styles([
 mix.copy([
     'node_modules/font-awesome/fonts/',
 ], 'public/assets/app/fonts');
+/*
+ |--------------------------------------------------------------------------
+ | Page
+ |--------------------------------------------------------------------------
+ |
+ */
 
+ mix.styles([
+    'resources/assets/front/css/boostrap.min.css',
+    'resources/assets/front/js/vendor/revslider/css/settings.css',
+    'resources/assets/front/css/fontello.css',
+    'resources/assets/front/css/_packed.css',
+    'resources/assets/front/css/main_style.css',
+    'resources/assets/front/css/general.css',
+    'resources/assets/front/css/responsive.css',
+    
+], 'public/assets/page/css/app_page.css').version();
+
+mix.scripts([
+
+    'resources/assets/front/js/vendor/jquery.js',
+    'resources/assets/front/js/vendor/bootstrap.min.js',
+    'resources/assets/front/js/vendor/jquery-migrate.min.js',
+    'resources/assets/front/js/vendor/revslider/js/jquery.themepunch.tools.min.js',
+    'resources/assets/front/js/vendor/revslider/js/jquery.themepunch.revolution.min.js',
+    'resources/assets/front/js/custom/_main.js',
+    'resources/assets/front/js/custom/_packed.js',
+    'resources/assets/front/js/custom/custom_menu.js',
+    'resources/assets/front/js/vendor/core.min.js',
+    'resources/assets/front/js/custom/shortcodes_init.js',
+    'resources/assets/front/js/custom/_utils.js',
+    'resources/assets/front/js/custom/_front.js',
+    'resources/assets/front/js/vendor/picker/picker.js',
+    'resources/assets/front/js/vendor/picker/picker.date.js',
+    'resources/assets/front/js/vendor/picker/picker.time.js',
+    'resources/assets/front/js/vendor/picker/picker.start.js',
+    'resources/assets/front/js/vendor/draggable.min.js',
+    'resources/assets/front/js/custom/_googlemap_init.js',
+
+], 'public/assets/page/js/app_page.js').version();
 /*
  |--------------------------------------------------------------------------
  | Auth
@@ -76,11 +116,9 @@ mix.styles([
     'resources/assets/admin/css/admin.css',
 ], 'public/assets/admin/css/admin.css').version();
 
-
 mix.copy([
     'node_modules/gentelella/vendors/bootstrap/dist/fonts',
 ], 'public/assets/admin/fonts');
-
 
 mix.scripts([
     'node_modules/select2/dist/js/select2.full.js',
@@ -105,7 +143,6 @@ mix.scripts([
 
     'node_modules/gentelella/production/js/moment/moment.min.js',
     'node_modules/gentelella/vendors/bootstrap-daterangepicker/daterangepicker.js',
-
 
     'node_modules/gentelella/vendors/Chart.js/dist/Chart.js',
     'node_modules/jcarousel/dist/jquery.jcarousel.min.js',
