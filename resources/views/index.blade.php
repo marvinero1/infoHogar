@@ -9,27 +9,27 @@
                     <div id="rev_slider" class="rev_slider fullwidthabanner">
                         <ul>
                             <!-- SLIDE  -->
-                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="300" data-thumb="assets/page/multimedia/images/slider/320x200.png"  data-saveperformance="off"  data-title="Slide">
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="300" data-thumb="https://familypt.com/wp-content/uploads/2018/11/home-photo.png"  data-saveperformance="off"  data-title="Slide">
                                 <!-- MAIN IMAGE -->
-                                <img src="assets/page/multimedia/images/slider/1900x760.png"  alt="slider-1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2021/08/download-23.jpg"  alt="slider-1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <!-- LAYERS -->
                             </li>
                             <!-- SLIDE  -->
-                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="300" data-thumb="assets/page/multimedia/images/slider/320x200.png"  data-saveperformance="off"  data-title="Slide">
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="300" data-thumb="https://familypt.com/wp-content/uploads/2018/11/home-photo.png"  data-saveperformance="off"  data-title="Slide">
                                 <!-- MAIN IMAGE -->
-                                <img src="assets/page/multimedia/images/slider/1900x760.png"  alt="slider-2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="https://media.istockphoto.com/photos/modern-custom-suburban-home-exterior-picture-id1255835529?b=1&k=20&m=1255835529&s=170667a&w=0&h=Z-RskiXf6fx_c0s64LAuCWhmS-cJ5Nli4p7lZtqa7R4="  alt="slider-2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <!-- LAYERS -->
                             </li>
                             <!-- SLIDE  -->
-                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="300" data-thumb="assets/page/multimedia/images/slider/320x200.png"  data-saveperformance="off"  data-title="Slide">
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="300" data-thumb="https://familypt.com/wp-content/uploads/2018/11/home-photo.png"  data-saveperformance="off"  data-title="Slide">
                                 <!-- MAIN IMAGE -->
-                                <img src="assets/page/multimedia/images/slider/1900x760.png"  alt="slider-3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="https://charlotte.axios.com/wp-content/uploads/2021/09/509-Poindexter-axios-charlotte-hot-homes.jpg.webp"  alt="slider-3"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <!-- LAYERS -->
                             </li>
                             <!-- SLIDE  -->
-                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="300" data-thumb="assets/page/multimedia/images/slider/320x200.png"  data-saveperformance="off"  data-title="Slide">
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="300" data-thumb="https://familypt.com/wp-content/uploads/2018/11/home-photo.png"  data-saveperformance="off"  data-title="Slide">
                                 <!-- MAIN IMAGE -->
-                                <img src="assets/page/multimedia/images/slider/1900x760.png"  alt="slider-4"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="https://charlotte.axios.com/wp-content/uploads/2021/11/hot-homes-axios-charlotte.jpeg.webp"  alt="slider-4"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <!-- LAYERS -->
                             </li>
                         </ul>

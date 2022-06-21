@@ -390,7 +390,7 @@ function googlemap_init(dom_obj, coords) {
 				THEMEREX_googlemap_init_obj[id].address = results[0].geometry.location;
 				googlemap_create(id);
 			} else
-				alert(THEMEREX_GEOCODE_ERROR + ' ' + status);
+				return  // alert(THEMEREX_GEOCODE_ERROR + ' ' + status);
 		});
 
 		jQuery(window).resize(function() {

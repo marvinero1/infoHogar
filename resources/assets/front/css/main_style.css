@@ -1719,8 +1719,8 @@ a:hover .menu_item_description { color: inherit; }
 	filter: alpha(opacity=100);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
-.imgNav .itemPrev:before{ content:'\e803'; left:50px;}
-.imgNav .itemNext:before{ content:'\e804'; right:50px; }
+.imgNav .itemPrev:before{ content:'fa fa-arrow-right'; left:50px;}
+.imgNav .itemNext:before{ content:'fa fa-arrow-left'; right:50px; }
 .imgNav .itemPrev{ top:50%; left:0; }
 .imgNav .itemNext{ top:50%; right:0; }
 
@@ -3241,8 +3241,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', end
 }
 .calendar tfoot th.prevMonth a { padding-left: 10px; }
 .calendar tfoot th.nextMonth a { padding-right: 10px; }
-.calendar tfoot th.prevMonth a:before { content: '\e803'; left: 0; }
-.calendar tfoot th.nextMonth a:before { content: '\e804'; right: 0; }
+/* .calendar tfoot th.prevMonth a:before { content: '\e803'; left: 0; }
+.calendar tfoot th.nextMonth a:before { content: '\e804'; right: 0; } */
 .calendar thead th.curMonth {
     text-align: left;
     font-size: 20px;
@@ -6642,7 +6642,7 @@ h3#dsidx-contact-form-header {
     line-height: 32px;
     text-align: center;
     text-shadow: none;
-    content: "";
+    content: "\e803";
     position: absolute;
     top: 50%;
     left: 50%;

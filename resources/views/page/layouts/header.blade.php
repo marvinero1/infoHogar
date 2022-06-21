@@ -4,7 +4,7 @@
 			<div class="col-sm-12">
 				<div class="topWrapFixed"></div>
 				<div class="topWrap styleShaded">
-					<div class="usermenu_area">
+					{{-- <div class="usermenu_area">
 						<div class="container">
 							<div class="menuUsItem menuItemRight">
 								<ul id="usermenu" class="usermenu_list sf-arrows">
@@ -33,7 +33,7 @@
 								</ul>
 							</div>
 						</div>
-					</div>
+					</div> --}}
 					<div class="mainmenu_area">
 						<div class="wrap_logo">
 							<div class="logo with_text">
@@ -55,14 +55,14 @@
 						<div class="wrap_menu">
 							<div class="infoTopWrap">
 								<div class="location">
-									<span class="info_icon icon-house"></span>
+									<span class="info_icon fa fa-home"></span>
 									<span class="contact_info_location">
 										<b>123 QuickSale Street</b>
 										<br>Chicago, IL 60606
 									</span>
 								</div>
 								<div class="phone">
-									<span class="info_icon icon-phone-handle"></span>
+									<span class="info_icon fa fa-phone"></span>
 									<span class="contact_info_phone">
 										<b>123-456-7890</b>
 										<br>info@yoursite.com
@@ -73,10 +73,10 @@
 							<nav role="navigation" class="menuTopWrap topMenuStyleLine">
 								<ul id="mainmenu" class="sf-arrows">
 									<li class="menu-item current-menu-item current-menu-ancestor menu-item-has-children">
-										<a href="index.html" class="sf-with-ul">Home</a>
-										<ul class="sub-menu">
-											<li class="menu-item current-menu-item">
-												<a href="index.html">Homepage default</a>
+										<a href="index.html" class="sf-with-ul ">Home <i class="fa fa-chevron-down"></i></a>
+										<ul class="sub-menu ">
+											<li class="menu-item current-menu-item ">
+												<a href="index.html"> Homepage default</a>
 											</li>
 											<li class="menu-item">
 												<a href="homepage-fullpage-slider.html">Fullpage slider</a>
@@ -96,7 +96,7 @@
 										</ul>
 									</li>
 									<li class="menu-item menu-item-has-children columns custom_view_item">
-										<a href="#" class="sf-with-ul">Pages</a>
+										<a href="#" class="sf-with-ul">Pages  <i class="fa fa-chevron-down"></i></a>
 										<ul class="menu-panel columns">
 											<li>
 												<ul class="custom-menu-style columns sub-menu">
@@ -176,7 +176,7 @@
 										</ul>
 									</li>
 									<li class="menu-item menu-item-has-children">
-										<a href="#" class="sf-with-ul">Blog</a>
+										<a href="#" class="sf-with-ul">Blog  <i class="fa fa-chevron-down"></i></a>
 										<ul class="sub-menu">
 											<li class="menu-item menu-item-has-children">
 												<a href="#" class="sf-with-ul">Classic Style</a>
@@ -239,9 +239,9 @@
 												</ul>
 											</li>
 										</ul>
-									</li>
+									</li> 
 									<li class="menu-item menu-item-has-children">
-										<a href="#" class="sf-with-ul">Gallery</a>
+										<a href="#" class="sf-with-ul">Gallery  <i class="fa fa-chevron-down"></i></a>
 										<ul class="sub-menu">
 											<li class="menu-item menu-item-has-children">
 												<a href="#" class="sf-with-ul">Grid Style</a>
@@ -327,11 +327,11 @@
 												</ul>
 											</li>
 										</ul>
-									</li>
-									<li class="menu-item">
+									</li> 
+									{{-- <li class="menu-item">
 										<a href="appointment.html">Appointment</a>
-									</li>
-									<li class="menu-item menu-item-has-children thumb custom_view_item">
+									</li> --}}
+									{{-- <li class="menu-item menu-item-has-children thumb custom_view_item">
 										<a href="projects.html" class="sf-with-ul">Tour</a>
 										<ul class="menu-panel thumb">
 											<li>
@@ -387,7 +387,7 @@
 												</div>
 											</li>
 										</ul>
-									</li>
+									</li> --}}
 								</ul>
 							</nav>
 						</div>

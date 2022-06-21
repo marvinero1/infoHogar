@@ -34,6 +34,8 @@ mix.styles([
 
 mix.copy([
     'node_modules/font-awesome/fonts/',
+    // 'assets/front/font/'
+
 ], 'public/assets/app/fonts');
 /*
  |--------------------------------------------------------------------------
